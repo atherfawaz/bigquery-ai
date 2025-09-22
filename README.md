@@ -1,1 +1,3 @@
 # bigquery-ai
+
+This repository contains code for our work in [Kaggle's BigQuery AI Competition](https://www.kaggle.com/competitions/bigquery-ai-hackathon/writeups). We adopted **Approach 2: The Semantic Detective** by leveraging BigQuery's (BQ) native vector search capabilities to go beyond simple keyword matching and vector search. We utilized BQ's `VECTOR_SEARCH()` and `ML.GENERATE_EMBEDDING()` functions with Gemini to transform product descriptions into meaningful vectors. Then we implemented a novel vector search strategy that understands user interactions over time, rather than just relying on simple text semantics.
